@@ -66,7 +66,6 @@ body {
 .column.large {
   width: 630px;
   display: flex;
-  align-items: center;
   flex-direction: column;
 }
 
@@ -114,6 +113,10 @@ body {
   text-align: center;
 }
 
+.lead.story {
+  width: 630px;
+}
+
 .lead.story .image-content {
   background-image: url(../images/img-story-main.png);
   width: 630px;
@@ -121,8 +124,6 @@ body {
   text-align: left;
 }
 
-.story {
-}
 
 .fall-cancelled.image-content {
   background-image: url(../images/img-story-2.png);
@@ -136,6 +137,14 @@ body {
   background-image: url(../images/img-story-1.png);
 }
 
-div .stories {
+.stories {
   display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
